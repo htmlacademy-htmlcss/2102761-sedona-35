@@ -127,8 +127,8 @@ body {
   align-items: center;
   text-align: center;
   color: #FFFFFF;
-  white-space: nowrap ;
-  padding: 8px 34px ;
+  white-space: nowrap;
+  padding: 8px 34px;
 
 }
 
@@ -162,12 +162,12 @@ body {
 
 }
 
-.my-flex-container{
+.my-flex-container {
   display: flex;
   flex-direction: column;
 }
 
-.index-columns-1{
+.index-columns-1 {
   Width: 1200px;
   height: 282px;
   flex-direction: column;
@@ -260,7 +260,7 @@ body {
   align-content: center;
 }
 
-.advantages-color-white{
+.advantages-color-white {
   background: #FFFFFF;
 }
 
@@ -272,8 +272,9 @@ body {
   text-align: center;
 
 }
-.advantages-description-white{
-   color: #ffffff;
+
+.advantages-description-white {
+  color: #ffffff;
 }
 
 .advantages-block {
@@ -286,7 +287,7 @@ body {
 }
 
 .advantages-img {
- margin: auto;
+  margin: auto;
   display: block;
 }
 
@@ -306,8 +307,7 @@ body {
 }
 
 
-
- .advantages-blue {
+.advantages-blue {
   background: #82B3D3;
 }
 
@@ -326,7 +326,6 @@ body {
   text-align: center;
 
 }
-
 
 .second-title {
   font-style: normal;
@@ -395,7 +394,7 @@ body {
 .second-title-p {
   font-style: normal;
   Width: 475px;
-  Height:52.51px;
+  Height: 52.51px;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -432,13 +431,13 @@ body {
   margin-top: 0;
 }
 
-.index-columns{
+.index-columns {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 1200px;
   box-sizing: border-box;
-  padding:  96px 304px 104px;
+  padding: 96px 304px 104px;
 }
 
 .button {
@@ -485,7 +484,7 @@ body {
   box-sizing: border-box;
 }
 
-.footer-social-list{
+.footer-social-list {
   display: flex;
   align-items: center;
   padding-left: 0;
@@ -497,13 +496,14 @@ body {
 
 }
 
-.footer-contacts{
+.footer-contacts {
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
-.photo-logo-1{
+
+.photo-logo-1 {
   display: flex;
   align-items: center;
 }
