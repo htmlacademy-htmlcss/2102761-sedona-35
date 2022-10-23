@@ -79,7 +79,7 @@ body {
 }
 
 .navigation-link-search {
-  background-image: url("../images/Поиск.svg");
+  background-image: url("../images/search.svg");
   width: 44px;
   height: 64px;
   display: flex;
@@ -92,7 +92,7 @@ body {
   display: block;
   width: 44px;
   height: 64px;
-  background-image: url("../images/Vector.svg");
+  background-image: url("../images/vector.svg");
   background-repeat: no-repeat;
   background-position: center center;
   text-decoration: none;
@@ -100,7 +100,7 @@ body {
 }
 
 .likes-num {
-  background-image: url("../images/Rectangle 61.svg");
+  background-image: url("../images/rectangle 61.svg");
   background: #7DB54F;
   text-align: center;
 
@@ -385,7 +385,7 @@ body {
   align-items: center;
   gap: 10px;
   width: 1200px;
-  height: 414.86px;
+  height: 414px;
   flex: none;
   box-sizing: border-box;
   background-size: cover;
@@ -394,7 +394,7 @@ body {
 .second-title-p {
   font-style: normal;
   Width: 475px;
-  Height: 52.51px;
+  Height: 52px;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -471,7 +471,7 @@ body {
 }
 
 .logo-1 {
-  width: 114.9px;
+  width: 114px;
   justify-content: start;
 }
 
@@ -489,11 +489,16 @@ body {
   align-items: center;
   padding-left: 0;
   margin: 0;
+
 }
 
 .footer-social-item {
   padding: 0 13px;
-
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 .footer-contacts {
@@ -505,6 +510,6 @@ body {
 
 .photo-logo-1 {
   display: flex;
-  align-items: center;
+  align-items: end;
 }
 
