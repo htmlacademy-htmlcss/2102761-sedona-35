@@ -278,6 +278,14 @@ body {
   text-align: center;
 }
 
+.advantages-grid {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+}
+
 .advantages-description-white {
   color: #ffffff;
 }
@@ -311,9 +319,16 @@ body {
   height: 76px;
 }
 
-
 .advantages-blue {
   background: #82B3D3;
+}
+
+.advantages-blue-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
 }
 
 .advantages-gray {
