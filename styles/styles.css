@@ -38,7 +38,7 @@ body {
   position: relative;
   margin: 0 auto;
   background-color: #ffffff;
-  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  box-shadow: 0 0 15px rgba(0, 0, 5 , .2);
 }
 
 .visually-hidden {
@@ -288,8 +288,20 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 85px;
-  padding-bottom: 9px;
+  margin: 0 0 61px 0;
+  position: relative;
+}
+
+.advantages-title:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  background-color:#000000;
+  opacity: .3;
+  bottom: -31px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .promo-subtitle {
@@ -348,12 +360,15 @@ body {
   align-items: center;
 }
 
-.line-white {
+.city-title:before{
+  content: "";
+  position: absolute;
   width: 60px;
   height: 2px;
   background-color: #fff;
   opacity: .3;
-  margin-top: 10px;
+  margin-top: 84px;
+  margin-left: 39px;
 }
 
 .line-gray {
@@ -372,6 +387,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   padding-top: 73px;
+  position: relative;
 }
 
 .city-description {
@@ -379,7 +395,7 @@ body {
   line-height: 21px;
   text-align: center;
   color: #ffffff;
-  padding-top: 12px;
+  padding-top: 23px;
 }
 
 .promo-block {
@@ -428,6 +444,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 103px;
+
+
 }
 
 .block-road {
@@ -439,6 +458,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 103px;
 }
 
 .block-tourists {
@@ -450,6 +470,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 103px;
 }
 
 .souvenir-block-text {
@@ -512,6 +533,18 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  position: relative;
+}
+
+.bridge-title:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  background-color: #fff;
+  opacity: .3;
+  margin-top: 82px;
+  margin-left: 23px;
 }
 
 .bridge-description {
@@ -519,13 +552,14 @@ body {
   line-height: 21px;
   text-align: center;
   color: #ffffff;
-  padding-top: 12px;
+  padding-top: 21px;
 }
 
 .advantages-description {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  margin: 0;
 }
 
 .field {
@@ -590,7 +624,7 @@ body {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  padding: 73px 304px 96px;
+  padding: 96px 304px 96px;
 }
 
 .unification {
@@ -605,6 +639,7 @@ body {
   line-height: 36px;
   text-align: center;
   color: #000000;
+  margin: 0;
   margin-bottom: -3px;
   text-transform: uppercase;
 }
@@ -637,6 +672,7 @@ body {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none
 }
 
 .button-subscribe {
