@@ -89,7 +89,7 @@ body {
 }
 
 .navigation-link-search {
-  background-image: url("../images/search-1.svg");
+  background-image: url("../images/search.svg");
   width: 44px;
   height: 64px;
   display: flex;
@@ -102,7 +102,7 @@ body {
   display: block;
   width: 44px;
   height: 64px;
-  background-image: url("../images/vector-1.svg");
+  background-image: url("../images/vector.svg");
   background-repeat: no-repeat;
   background-position: center center;
   text-decoration: none;
@@ -239,12 +239,12 @@ body {
   height: 485px;
   margin: 0 auto;
   position: relative;
-  background: url(../images/index-background-1.jpg) 0 0 no-repeat;
+  background: url(../images/index-background.jpg) 0 0 no-repeat;
 }
 
 .banner:before {
   content: '';
-  background: url(../images/welcome-1.png) 0 0 no-repeat;
+  background: url(../images/welcome.png) 0 0 no-repeat;
   width: 458px;
   height: 352px;
   position: absolute;
@@ -254,7 +254,7 @@ body {
 
 .banner:after {
   content: '';
-  background: url(../images/divider-1.png) 0 0 no-repeat;
+  background: url(../images/divider.png) 0 0 no-repeat;
   display: block;
   width: 100%;
   height: 57px;
@@ -318,7 +318,7 @@ body {
   width: 400px;
   padding-top: 153px;
   background: rgba(131, 179, 211, 0.2);
-  background-image: url("../images/food-1.svg");
+  background-image: url("../images/food.svg");
   background-repeat: no-repeat;
   background-position: 50% 81px;
 }
@@ -410,7 +410,7 @@ body {
   box-sizing: border-box;
   padding-top: 154px;
   background: rgba(131, 179, 211, 0.2);
-  background-image: url("../images/house-1.svg");
+  background-image: url("../images/house.svg");
   background-repeat: no-repeat;
   background-position: 50% 81px;
   padding-bottom: 62px;
@@ -430,7 +430,7 @@ body {
   box-sizing: border-box;
   padding-top: 154px;
   background: rgba(131, 179, 211, 0.2);
-  background-image: url(../images/souvenir-1.svg);
+  background-image: url(../images/souvenir.svg);
   background-repeat: no-repeat;
   background-position: 50% 81px;
 }
@@ -566,7 +566,7 @@ body {
 }
 
 .newsletter-block {
-  background-image: url("../images/photo-12.jpg");
+  background-image: url("../images/photo-1.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
