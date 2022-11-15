@@ -136,27 +136,32 @@ body {
   position: absolute;
   border: 2px;
   background-color: #756257;
-  right: 1px;
-  left: 1px;
-  bottom: 7px;
+  right: -1px;
+  left: 0;
+  bottom: 4px;
   height: 2px;
+  z-index: 2;
 }
 
 .navigation-link-button {
   background: #756157;
   color: #FFFFFF;
   border-radius: 4px;
-  padding: 10px 34px 6px;
+  padding: 8px 34px;
   border: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   white-space: nowrap;
-  height: 36px;
   text-transform: uppercase;
   text-align: center;
   margin-left: 20px;
   font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+}
+
+.navigation-link-button:hover {
+  background-color: #5A3D30;
 }
 
 .navigation {
@@ -244,7 +249,7 @@ body {
 
 .banner:before {
   content: '';
-  background: url(../images/welcome.png) 0 0 no-repeat;
+  background: url(../images/welcome.svg) 0 0 no-repeat;
   width: 458px;
   height: 352px;
   position: absolute;
@@ -254,7 +259,7 @@ body {
 
 .banner:after {
   content: '';
-  background: url(../images/divider.png) 0 0 no-repeat;
+  background: url(../images/divider.svg) 0 0 no-repeat;
   display: block;
   width: 100%;
   height: 57px;
@@ -311,7 +316,7 @@ body {
   text-align: center;
   color: #333333;
   align-content: center;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .promo-food {
@@ -366,7 +371,7 @@ body {
   height: 2px;
   background-color: #fff;
   opacity: .3;
-  margin-top: 84px;
+  margin-top: 87px;
   margin-left: 39px;
 }
 
@@ -385,7 +390,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 73px;
+  padding-top: 75px;
   position: relative;
 }
 
@@ -517,7 +522,7 @@ body {
   height: 2px;
   background-color: #fff;
   opacity: .3;
-  margin-top: 82px;
+  margin-top: 85px;
   margin-left: 23px;
 }
 
@@ -545,16 +550,21 @@ body {
   box-sizing: border-box;
   border: none;
   font-family: "PT Sans", sans-serif;
-  border-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
   overflow: hidden;
   padding: 14px 0 12px 19px;
   border: 3px;
 }
 
+.field:hover {
+  background-color: #DCDCDC;
+}
+
 .form {
   display: flex;
   justify-content: center;
-  padding-right: 148px;
+  padding-right: 149px;
 }
 
 .second-title-1 {
@@ -571,7 +581,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 98px;
+  padding-top: 96px;
   padding-bottom: 107px;
   flex: none;
   box-sizing: border-box;
@@ -606,7 +616,7 @@ body {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  padding: 96px 304px 96px;
+  padding: 96px 304px 95px;
 }
 
 .index-columns-title {
@@ -616,7 +626,7 @@ body {
   text-align: center;
   color: #000000;
   margin: 0;
-  margin-bottom: -3px;
+  margin-bottom: -1px;
   text-transform: uppercase;
 }
 
@@ -627,7 +637,7 @@ body {
   text-align: center;
   color: #333333;
   display: flex;
-  margin-bottom: 54px;
+  margin-bottom: 55px;
 }
 
 .index-hotel-search {
@@ -648,7 +658,11 @@ body {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  text-decoration: none
+  text-decoration: none;
+}
+
+.index-hotel-search:hover {
+  background-color: #5A3D30;
 }
 
 .button-subscribe {
@@ -662,13 +676,19 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.button-subscribe:hover {
+  background-color: #7FC7FF;
 }
 
 .contacts-phone {
   font-size: 40px;
   line-height: 40px;
   color: #000000;
-  padding-left: 71px;
+  padding-left: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -680,7 +700,7 @@ body {
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 42px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   box-sizing: border-box;
 }
 
@@ -706,7 +726,7 @@ body {
 }
 
 .logo-1 {
-  width: 114px;
+  width: 115px;
   justify-content: start;
   margin: 3px 71px;
 }
