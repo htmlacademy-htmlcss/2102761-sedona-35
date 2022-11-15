@@ -86,17 +86,14 @@
     </section>
     <section class="promo-block">
       <div class="promo-house">
-        <div class="advantages-img advantages-img1"></div>
         <h2 class="promo-house-text">Жильё</h2>
         <p class="promo-subtitle">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
       </div>
       <div class="promo-food">
-        <div class="advantages-img advantages-img2"></div>
         <h2 class="promo-food-text">Еда</h2>
         <p class="promo-subtitle">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!</p>
       </div>
       <div class="souvenir-block">
-        <div class="advantages-img advantages-img3"></div>
         <h2 class="souvenir-block-text">Сувениры</h2>
         <p class="promo-subtitle">Не только китайского,<br> но и настоящего местного <br>производства!</p>
       </div>
@@ -110,13 +107,14 @@
     <section class="newsletter-block">
       <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
       <p class="newsletter-title-p">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <div class="unification">
+        <form class="form" action="http://echo.htmlacademy.ru/" method="post">
+          <label for="email">
+            <span class="visually-hidden">Введите ваш email</span>
+          </label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email"
                  id="newsletter-email" required>
-          <button class="button-subscribe" type="submit">
-            Подписаться
-          </button>
-      </div>
+          <button class="button-subscribe" type="submit">Подписаться</button>
+        </form>
     </section>
   </main>
   <footer class="footer-container">
@@ -137,7 +135,7 @@
         </a>
       </div>
     </div>
-      <a class="contacts-phone" href="tel:+79876543210">+7 (812) 812-12-12</a>
+    <a class="contacts-phone" href="tel:+79876543210">+7 (812) 812-12-12</a>
     <a class="photo-logo-1">
       <img class="logo-1" src="images/html_academy-1.svg" height="33" width="115" alt="Логотип HTML Academy.">
     </a>
