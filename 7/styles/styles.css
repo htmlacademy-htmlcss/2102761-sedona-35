@@ -89,7 +89,7 @@ body {
 }
 
 .navigation-link-search {
-  background-image: url("../images/search-1.svg");
+  background-image: url("../images/search.svg");
   width: 44px;
   height: 64px;
   display: flex;
@@ -102,7 +102,7 @@ body {
   display: block;
   width: 44px;
   height: 64px;
-  background-image: url("../images/vector-1.svg");
+  background-image: url("../images/vector.svg");
   background-repeat: no-repeat;
   background-position: center center;
   text-decoration: none;
@@ -201,7 +201,7 @@ body {
   text-align: center;
   align-items: center;
   box-sizing: border-box;
-  padding: 44px;
+  padding: 46px;
 }
 
 .welcome-text-h1 {
@@ -239,12 +239,12 @@ body {
   height: 485px;
   margin: 0 auto;
   position: relative;
-  background: url(../images/index-background-1.jpg) 0 0 no-repeat;
+  background: url(../images/index-background.jpg) 0 0 no-repeat;
 }
 
 .banner:before {
   content: '';
-  background: url(../images/welcome-1.png) 0 0 no-repeat;
+  background: url(../images/welcome.png) 0 0 no-repeat;
   width: 458px;
   height: 352px;
   position: absolute;
@@ -254,7 +254,7 @@ body {
 
 .banner:after {
   content: '';
-  background: url(../images/divider-1.png) 0 0 no-repeat;
+  background: url(../images/divider.png) 0 0 no-repeat;
   display: block;
   width: 100%;
   height: 57px;
@@ -288,7 +288,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin: 0 0 61px 0;
+  margin: 4px 0 61px 0;
   position: relative;
 }
 
@@ -316,12 +316,11 @@ body {
 
 .promo-food {
   width: 400px;
-  height: 384px;
+  padding-top: 153px;
+  background: rgba(131, 179, 211, 0.2);
+  background-image: url("../images/food.svg");
   background-repeat: no-repeat;
-  background-size: auto, cover;
-  box-sizing: border-box;
-  padding: 80px 85px;
-  background: #FFFFFF;
+  background-position: 50% 81px;
 }
 
 .promo-food-text {
@@ -408,12 +407,13 @@ body {
 
 .promo-house {
   width: 400px;
-  height: 384px;
-  background-repeat: no-repeat;
-  background-size: auto, cover;
   box-sizing: border-box;
-  padding: 80px 85px;
+  padding-top: 154px;
   background: rgba(131, 179, 211, 0.2);
+  background-image: url("../images/house.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 81px;
+  padding-bottom: 62px;
 }
 
 .promo-house-text {
@@ -427,12 +427,12 @@ body {
 
 .souvenir-block {
   width: 400px;
-  height: 384px;
-  background-repeat: no-repeat;
-  background-size: auto, cover;
   box-sizing: border-box;
-  padding: 80px 85px;
+  padding-top: 154px;
   background: rgba(131, 179, 211, 0.2);
+  background-image: url(../images/souvenir.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 81px;
 }
 
 .block-square {
@@ -445,8 +445,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 103px;
-
-
 }
 
 .block-road {
@@ -479,30 +477,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 8px;
-}
-
-.advantages-img {
-  margin: auto;
-  display: block;
-}
-
-.advantages-img1 {
-  background-image: url("../images/house-1.svg");
-  width: 75px;
-  height: 72px;
-}
-
-.advantages-img2 {
-  width: 74px;
-  height: 70px;
-  background-image: url("../images/food-1.svg");
-}
-
-.advantages-img3 {
-  background-image: url("../images/souvenir-1.svg");
-  width: 64px;
-  height: 76px;
+  padding-top: 12px;
 }
 
 .bridge-block {
@@ -514,7 +489,6 @@ body {
 
 .bridge-block-1 {
   width: 400px;
-  height: 384px;
   background-repeat: no-repeat;
   background-size: auto, cover;
   box-sizing: border-box;
@@ -568,11 +542,19 @@ body {
   font-weight: 400;
   line-height: 26px;
   text-align: left;
-  padding-left: 22px;
-  padding-right: 22px;
   box-sizing: border-box;
   border: none;
   font-family: "PT Sans", sans-serif;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 14px 0 12px 19px;
+  border: 3px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding-right: 148px;
 }
 
 .second-title-1 {
@@ -584,12 +566,12 @@ body {
 }
 
 .newsletter-block {
-  background-image: url("../images/photo-12.jpg");
+  background-image: url("../images/photo-1.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 94px;
+  padding-top: 98px;
   padding-bottom: 107px;
   flex: none;
   box-sizing: border-box;
@@ -625,12 +607,6 @@ body {
   align-items: center;
   box-sizing: border-box;
   padding: 96px 304px 96px;
-}
-
-.unification {
-  border-radius: 4px;
-  overflow: hidden;
-  display: flex;
 }
 
 .index-columns-title {
@@ -692,7 +668,7 @@ body {
   font-size: 40px;
   line-height: 40px;
   color: #000000;
-  padding-left: 73px;
+  padding-left: 71px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -732,5 +708,5 @@ body {
 .logo-1 {
   width: 114px;
   justify-content: start;
-  margin: 0 71px;
+  margin: 3px 71px;
 }
