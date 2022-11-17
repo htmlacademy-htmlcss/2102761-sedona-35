@@ -107,14 +107,14 @@
     <section class="newsletter-block">
       <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
       <p class="newsletter-title-p">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="form" action="http://echo.htmlacademy.ru/" method="post">
-          <label for="newsletter-email">
-            <span class="visually-hidden">Введите ваш email.</span>
-          </label>
-          <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email"
-                 id="newsletter-email" required>
-          <button class="button-subscribe" type="submit">Подписаться</button>
-        </form>
+      <form class="form" action="http://echo.htmlacademy.ru/" method="post">
+        <label for="newsletter-email">
+          <span class="visually-hidden">Введите ваш email.</span>
+        </label>
+        <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email"
+               id="newsletter-email" required>
+        <button class="button-subscribe" type="submit">Подписаться</button>
+      </form>
     </section>
   </main>
   <footer class="footer-container">
@@ -135,10 +135,13 @@
         </a>
       </div>
     </div>
-    <a class="contacts-phone" href="tel:+79876543210">+7 (812) 812-12-12</a>
+    <div>
+      <a class="contacts-phone" href="tel:+79876543210">+7 (812) 812-12-12</a>
+    </div>
     <div class="photo-logo-1">
-      <a class="button" href="https://htmlacademy.ru"></a>
-      <img class="logo-1" src="images/html_academy.svg" height="33" width="115" alt="Логотип HTML Academy.">
+      <a class="button" href="https://htmlacademy.ru">
+        <img class="logo-1" src="images/html_academy.svg" height="33" width="115" alt="Логотип HTML Academy.">
+      </a>
     </div>
   </footer>
 </div>
