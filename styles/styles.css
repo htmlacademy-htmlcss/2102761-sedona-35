@@ -53,7 +53,7 @@ body {
   gap: 105px;
   padding: 0 70px;
   width: 1200px;
-  height: 64px;
+  height: 65px;
   box-sizing: border-box;
   align-items: center;
   flex-grow: 1;
@@ -79,6 +79,10 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
+}
+
+.navigation-link:hover {
+  color: #756257;
 }
 
 .navigation-link-likes {
@@ -206,7 +210,7 @@ body {
   text-align: center;
   align-items: center;
   box-sizing: border-box;
-  padding: 46px;
+  padding: 45px;
 }
 
 .welcome-text-h1 {
@@ -244,7 +248,7 @@ body {
   height: 485px;
   margin: 0 auto;
   position: relative;
-  background: url(../images/index-background.jpg) 0 0 no-repeat;
+  background: url(../images/background.jpg) 0 0 no-repeat;
 }
 
 .banner:before {
@@ -293,7 +297,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin: 4px 0 61px 0;
+  margin: 2px -1px 61px 0;
   position: relative;
 }
 
@@ -322,10 +326,11 @@ body {
 .promo-food {
   width: 400px;
   padding-top: 153px;
-  background: rgba(131, 179, 211, 0.2);
+  background: #FFFFFF;
   background-image: url("../images/food.svg");
   background-repeat: no-repeat;
   background-position: 50% 81px;
+  padding-bottom: 62px;
 }
 
 .promo-food-text {
@@ -334,7 +339,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 13px;
+  padding-top: 12px;
 }
 
 .city-block {
@@ -427,7 +432,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 12px;
+  padding-top: 11px;
 }
 
 .souvenir-block {
@@ -438,6 +443,7 @@ body {
   background-image: url(../images/souvenir.svg);
   background-repeat: no-repeat;
   background-position: 50% 81px;
+  padding-bottom: 62px;
 }
 
 .block-square {
@@ -482,7 +488,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 12px;
+  padding-top: 11px;
 }
 
 .bridge-block {
@@ -553,7 +559,7 @@ body {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   overflow: hidden;
-  padding: 14px 0 12px 19px;
+  padding: 14px 0 12px 21px;
   border: 3px;
 }
 
@@ -564,7 +570,7 @@ body {
 .form {
   display: flex;
   justify-content: center;
-  padding-right: 149px;
+  padding-right: 151px;
 }
 
 .second-title-1 {
@@ -582,7 +588,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 96px;
-  padding-bottom: 107px;
+  padding-bottom: 104px;
   flex: none;
   box-sizing: border-box;
   background-size: cover;
@@ -593,7 +599,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  height: 35px;
+  height: 37px;
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 0;
@@ -603,12 +609,12 @@ body {
   width: 475px;
   font-weight: 400;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 24px;
   text-align: center;
   color: #FFFFFF;
   display: flex;
   box-sizing: border-box;
-  margin-bottom: 54px;
+  margin-bottom: 57px;
 }
 
 .index-columns-block {
@@ -616,28 +622,28 @@ body {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  padding: 96px 304px 95px;
+  padding: 98px 304px 95px;
 }
 
 .index-columns-title {
   font-weight: 700;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 34px;
   text-align: center;
   color: #000000;
   margin: 0;
-  margin-bottom: -1px;
+  margin-bottom: -3px;
   text-transform: uppercase;
 }
 
 .index-columns-description {
   font-weight: 400;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 27px;
   text-align: center;
   color: #333333;
   display: flex;
-  margin-bottom: 55px;
+  margin-bottom: 54px;
 }
 
 .index-hotel-search {
@@ -686,29 +692,32 @@ body {
 
 .contacts-phone {
   font-size: 40px;
-  line-height: 40px;
+  line-height: 39px;
   color: #000000;
-  padding-left: 75px;
+  padding-left: 170px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 42px;
+  padding-top: 46px;
   padding-bottom: 30px;
   box-sizing: border-box;
 }
 
 .footer-social-list {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
   padding-left: 69px;
   margin: 0;
+  max-width: 47px;
 }
 
 .footer-social-item {
@@ -718,6 +727,7 @@ body {
   align-items: center;
   box-sizing: border-box;
   margin: 0;
+  width:100%
 }
 
 .photo-logo-1 {
@@ -728,5 +738,5 @@ body {
 .logo-1 {
   width: 115px;
   justify-content: start;
-  margin: 3px 71px;
+  margin: 2px 71px;
 }
