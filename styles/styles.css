@@ -299,7 +299,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin: 0 0 63px;
+  margin: 0 0 61px;
   position: relative;
 }
 
@@ -310,7 +310,7 @@ body {
   height: 2px;
   background-color:#000000;
   opacity: .3;
-  bottom: -32px;
+  bottom: -31px;
   left: 50%;
   transform: translateX(-50%);
 }
