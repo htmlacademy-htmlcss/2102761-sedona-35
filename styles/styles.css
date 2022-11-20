@@ -53,7 +53,7 @@ body {
   gap: 105px;
   padding: 0 70px;
   width: 1200px;
-  height: 65px;
+  height: 64px;
   box-sizing: border-box;
   align-items: center;
   flex-grow: 1;
@@ -142,7 +142,7 @@ body {
   background-color: #756257;
   right: -1px;
   left: 0;
-  bottom: 4px;
+  bottom: 5px;
   height: 2px;
   z-index: 2;
 }
@@ -223,6 +223,8 @@ body {
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 26px;
 }
 
 .welcome-text-p {
@@ -297,7 +299,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin: 2px -1px 61px 0;
+  margin: 0 0 63px;
   position: relative;
 }
 
@@ -308,7 +310,7 @@ body {
   height: 2px;
   background-color:#000000;
   opacity: .3;
-  bottom: -31px;
+  bottom: -32px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -320,7 +322,7 @@ body {
   text-align: center;
   color: #333333;
   align-content: center;
-  padding-top: 8px;
+  padding-top: 11px;
 }
 
 .promo-food {
@@ -339,7 +341,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 12px;
+  padding-top: 10px;
 }
 
 .city-block {
@@ -376,7 +378,7 @@ body {
   height: 2px;
   background-color: #fff;
   opacity: .3;
-  margin-top: 87px;
+  margin-top: 84px;
   margin-left: 39px;
 }
 
@@ -392,11 +394,11 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 75px;
+  padding-top: 79px;
   position: relative;
+  margin-top: 15px;
 }
 
 .city-description {
@@ -432,7 +434,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 11px;
+  padding-top: 9px;
 }
 
 .souvenir-block {
@@ -442,7 +444,7 @@ body {
   background: rgba(131, 179, 211, 0.2);
   background-image: url(../images/souvenir.svg);
   background-repeat: no-repeat;
-  background-position: 50% 81px;
+  background-position: 50% 79px;
   padding-bottom: 62px;
 }
 
@@ -455,7 +457,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 103px;
+  padding-top: 105px;
 }
 
 .block-road {
@@ -467,7 +469,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 103px;
+  padding-top: 105px;
 }
 
 .block-tourists {
@@ -479,7 +481,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 103px;
+  padding-top: 105px;
 }
 
 .souvenir-block-text {
@@ -488,7 +490,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 11px;
+  padding-top: 9px;
 }
 
 .bridge-block {
@@ -519,6 +521,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   position: relative;
+  margin-top: 19px;
 }
 
 .bridge-title:before {
@@ -529,7 +532,7 @@ body {
   background-color: #fff;
   opacity: .3;
   margin-top: 85px;
-  margin-left: 23px;
+  margin-left: 22px;
 }
 
 .bridge-description {
@@ -537,7 +540,7 @@ body {
   line-height: 21px;
   text-align: center;
   color: #ffffff;
-  padding-top: 21px;
+  padding-top: 23px;
 }
 
 .advantages-description {
@@ -587,7 +590,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 96px;
+  padding-top: 95px;
   padding-bottom: 104px;
   flex: none;
   box-sizing: border-box;
@@ -599,7 +602,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  height: 37px;
+  height: 38px;
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 0;
@@ -614,7 +617,7 @@ body {
   color: #FFFFFF;
   display: flex;
   box-sizing: border-box;
-  margin-bottom: 57px;
+  margin-bottom: 56px;
 }
 
 .index-columns-block {
@@ -622,17 +625,17 @@ body {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  padding: 98px 304px 95px;
+  padding: 98px 304px 96px;
 }
 
 .index-columns-title {
   font-weight: 700;
   font-size: 30px;
-  line-height: 34px;
+  line-height: 33px;
   text-align: center;
   color: #000000;
   margin: 0;
-  margin-bottom: -3px;
+  margin-bottom: -1px;
   text-transform: uppercase;
 }
 
@@ -643,7 +646,7 @@ body {
   text-align: center;
   color: #333333;
   display: flex;
-  margin-bottom: 54px;
+  margin-bottom: 52px;
 }
 
 .index-hotel-search {
@@ -694,7 +697,7 @@ body {
   font-size: 40px;
   line-height: 39px;
   color: #000000;
-  padding-left: 170px;
+  padding-left: 169px;
   display: flex;
   justify-content: center;
   align-items: center;
