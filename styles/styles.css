@@ -299,7 +299,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin: 0 0 63px;
+  margin: 0 0 61px;
   position: relative;
 }
 
@@ -310,7 +310,6 @@ body {
   height: 2px;
   background-color:#000000;
   opacity: .3;
-  bottom: -32px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -705,6 +704,15 @@ body {
   white-space: nowrap;
 }
 
+.contacts-phone:active,
+.contacts-phone:focus {
+  color: #756257;
+}
+
+.contacts-phone:hover {
+  color: #756257;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -733,9 +741,17 @@ body {
   width:100%
 }
 
+.footer-social-item .button:hover {
+  opacity: 0.5;
+}
+
 .photo-logo-1 {
   display: flex;
   align-items: end;
+}
+
+.photo-logo-1 .button:hover {
+  opacity: 0.7;
 }
 
 .logo-1 {
