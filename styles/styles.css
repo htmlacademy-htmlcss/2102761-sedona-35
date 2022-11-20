@@ -310,7 +310,6 @@ body {
   height: 2px;
   background-color:#000000;
   opacity: .3;
-  bottom: -31px;
   left: 50%;
   transform: translateX(-50%);
 }
